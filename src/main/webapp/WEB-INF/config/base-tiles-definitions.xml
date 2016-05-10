@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+    <definition name="template-main" template="/WEB-INF/jsp/layouts/main.jsp">
+        <put-attribute name="header-content" value="/WEB-INF/jsp/layouts/header.jsp" />
+        <put-attribute name="left-menu-content" value="/WEB-INF/jsp/layouts/left-menu.jsp" />
+        <put-attribute name="primary-content" value="" />
+        <put-attribute name="footer-content" value="/WEB-INF/jsp/layouts/footer.jsp" />
+    </definition>
+    <!-- Concrete page. To use this page, your controller must return the name "main-tiles" -->
+    <definition name="main-tiles" extends="template-main">
+        <put-attribute name="primary-content" value="/WEB-INF/jsp/content.jsp" />
+    </definition>
+</tiles-definitions>
