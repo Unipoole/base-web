@@ -17,8 +17,8 @@
         Note that the source control name must be the same as the artifact name
     -->
     <scm>
-        <connection>scm:git:https://github.com/Unipoole/base-web/tree/master</connection>
-        <developerConnection>scm:git:https://github.com/Unipoole/base-web/tree/master</developerConnection>
+        <connection>scm:git:https://github.com/Unipoole/base-web.git</connection>
+        <developerConnection>scm:git:https://github.com/Unipoole/base-web.git</developerConnection>
         <url>https://github.com/Unipoole/base-web/tree/master</url>
     </scm>
     <properties>
