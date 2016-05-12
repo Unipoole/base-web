@@ -11,7 +11,7 @@
     <packaging>war</packaging>
     <name>Unipoole Base Web</name>
     <description>The Unipoole Base Web is just to cut duplication, it is used as a base for Unipoole web projects.</description>
-    <url>https://github.com/Unipoole/base-web/tree/master</url>
+    <url>https://github.com/Unipoole/base-web</url>
     <!-- 
         The source control locations.
         Note that the source control name must be the same as the artifact name
@@ -82,4 +82,8 @@
             </plugin>
         </plugins>
     </build>
+    <ciManagement>
+    	<system>Travis-CI</system>
+    	<url>https://travis-ci.org/Unipoole/base-web</url>
+    </ciManagement>
 </project>
